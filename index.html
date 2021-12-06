@@ -1,0 +1,46 @@
+<!--
+Author : Deri Komara
+Made with love in Bandung.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Barokah Jaya</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div class="wrapper h-100">
+        <div class="card shadow pt-4 pb-4 wrapper-welcome">
+            Login <br />
+            <span class="fs-12">Silahkan Login Untuk Memesan</span>
+        </div>
+        <div class="row wrapper-content">
+            <div class="col-12">
+                <div class="card shadow mt-4">
+                    <div class="p-3">
+                        <div id="error"></div>
+                        <div class="form-group">
+                            <label for="email" class="fs-12">Email</label>
+                            <input id="email" type="text" placeholder="Email" class="mt-2 form-control">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="password" class="fs-12">Password</label>
+                            <input id="password" type="password" placeholder="Password" class="mt-2 form-control">
+                        </div>
+                        <button class="mt-4 btn btn-primary btn-md fs-12" onclick="login()">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <p class="text-muted fs-12">Belum mempunyai akun?</p>
+            <a href="register.html" class="text-decoration-none fs-12">Daftar disini</a>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

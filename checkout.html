@@ -1,0 +1,117 @@
+<!--
+Author : Deri Komara
+Made with love in Bandung.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Barokah Jaya</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div class="wrapper h-100">
+        <div class="card shadow pt-4 pb-4 wrapper-welcome">
+            Transaksi <br />
+            <span class="fs-12">Checkout Transaksi</span>
+        </div>
+        <div class="row wrapper-content">
+            <div class="col-12">
+                <div class="card shadow mt-4">
+                    <div class="p-3">
+                        <div id="info"></div>
+                        <div class="form-group">
+                            <label for="alamat" class="fs-12">Alamat pengiriman</label>
+                            <textarea id="alamat" placeholder="Alamat pengiriman" class="form-control mt-2"></textarea>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="whatsapp" class="fs-12">No Whatsapp</label>
+                            <input id="whatsapp" placeholder="No Whatsapp" class="form-control mt-2"></textarea>
+                        </div>
+                        <button class="mt-4 btn btn-primary btn-md fs-12" onclick="alert('Transaksi berhasil');">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-menu">
+            <div class="card shadow">
+                <div class="row">
+                    <div class="col-3 mb-2 mt-2" id="home">
+                        <a href="home.html" class="d-flex flex-column align-items-center text-decoration-none">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="home" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                class="svg-inline--fa fa-home fa-w-18 fa-2x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M336 463.59V368a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v95.71a16 16 0 0 1-15.92 16L112 480a16 16 0 0 1-16-16V300.06l184.39-151.85a12.19 12.19 0 0 1 15.3 0L480 300v164a16 16 0 0 1-16 16l-112-.31a16 16 0 0 1-16-16.1z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M573.32 268.35l-25.5 31a12 12 0 0 1-16.9 1.65L295.69 107.21a12.19 12.19 0 0 0-15.3 0L45.17 301a12 12 0 0 1-16.89-1.65l-25.5-31a12 12 0 0 1 1.61-16.89L257.49 43a48 48 0 0 1 61 0L408 116.61V44a12 12 0 0 1 12-12h56a12 12 0 0 1 12 12v138.51l83.6 68.91a12 12 0 0 1 1.72 16.93z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                            <span class="fs-12">Home</span>
+                        </a>
+                    </div>
+                    <div class="col-3 mb-2 mt-2" id="product">
+                        <a href="product.html" class="d-flex flex-column align-items-center text-decoration-none">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="bags-shopping" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                class="svg-inline--fa fa-bags-shopping fa-w-18 fa-2x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M448 192a32 32 0 0 0-32-32h-96V96a96 96 0 0 0-192 0v64H32a32 32 0 0 0-32 32v256a32 32 0 0 0 32 32h128V256a32 32 0 0 1 32-32h256zm-176-32h-96V96a48 48 0 0 1 96 0zm200 160h-16a8 8 0 0 0-8 8v24a64.07 64.07 0 0 1-70.38 63.69c-33.25-3.23-57.62-33.12-57.62-66.53V328a8 8 0 0 0-8-8h-16a8 8 0 0 0-8 8v20.66c0 48.79 35 92.32 83.37 98.53A96.12 96.12 0 0 0 480 352v-24a8 8 0 0 0-8-8z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M544 256H224a32 32 0 0 0-32 32v192a32 32 0 0 0 32 32h320a32 32 0 0 0 32-32V288a32 32 0 0 0-32-32zm-64 96a96.12 96.12 0 0 1-108.63 95.19C323 441 288 397.45 288 348.66V328a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8v21.16c0 33.41 24.37 63.3 57.62 66.53A64.07 64.07 0 0 0 448 352v-24a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                            <span class="fs-12">Produk</span>
+                        </a>
+                    </div>
+                    <div class="col-3 mt-2 mb-2" id="about">
+                        <a href="article.html" class="d-flex flex-column align-items-center text-decoration-none">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="newspaper" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                class="svg-inline--fa fa-newspaper fa-w-18 fa-2x">
+                                <g class="fa-group">
+                                    <path fill="currentColor"
+                                        d="M544 64H96a32 32 0 0 0-32 32v322.21c0 .36-.05.73-.09 1.09 0 .21 0 .42-.08.63s-.08.66-.13 1-.08.46-.12.68-.1.61-.16.91-.11.46-.16.69-.13.59-.21.87-.13.46-.19.69l-.24.84-.24.68c-.09.28-.18.55-.28.82s-.17.45-.26.67-.21.53-.32.79-.2.45-.3.67-.23.51-.35.76l-.33.65c-.13.25-.25.49-.39.74l-.36.63-.42.72-.39.61c-.15.23-.3.46-.46.69l-.42.6-.48.66c-.15.2-.3.39-.46.58s-.33.43-.51.64l-.48.55-.54.61-.51.53c-.18.2-.37.39-.57.59l-.53.5-.6.56-.55.48-.62.52-.58.46-.65.49-.6.43-.68.46c-.2.14-.41.27-.62.4l-.69.43-.65.37c-.23.13-.47.27-.71.39l-.67.34c-.24.13-.48.25-.73.36l-.69.31-.74.32-.71.28-.77.29-.72.24-.78.25-.75.21-.79.21-.76.17-.81.17-.77.14-.82.12-.79.1-.83.09-.81.06h-1.65H528a48 48 0 0 0 48-48V96a32 32 0 0 0-32-32zM304 372a12 12 0 0 1-12 12H140a12 12 0 0 1-12-12v-8a12 12 0 0 1 12-12h152a12 12 0 0 1 12 12zm0-96a12 12 0 0 1-12 12H140a12 12 0 0 1-12-12v-8a12 12 0 0 1 12-12h152a12 12 0 0 1 12 12zm208 96a12 12 0 0 1-12 12H348a12 12 0 0 1-12-12v-8a12 12 0 0 1 12-12h152a12 12 0 0 1 12 12zm0-96a12 12 0 0 1-12 12H348a12 12 0 0 1-12-12v-8a12 12 0 0 1 12-12h152a12 12 0 0 1 12 12zm0-96a12 12 0 0 1-12 12H140a12 12 0 0 1-12-12v-40a12 12 0 0 1 12-12h360a12 12 0 0 1 12 12z"
+                                        class="fa-secondary"></path>
+                                    <path fill="currentColor"
+                                        d="M292 352H140a12 12 0 0 0-12 12v8a12 12 0 0 0 12 12h152a12 12 0 0 0 12-12v-8a12 12 0 0 0-12-12zm0-96H140a12 12 0 0 0-12 12v8a12 12 0 0 0 12 12h152a12 12 0 0 0 12-12v-8a12 12 0 0 0-12-12zm208 96H348a12 12 0 0 0-12 12v8a12 12 0 0 0 12 12h152a12 12 0 0 0 12-12v-8a12 12 0 0 0-12-12zm0-96H348a12 12 0 0 0-12 12v8a12 12 0 0 0 12 12h152a12 12 0 0 0 12-12v-8a12 12 0 0 0-12-12zM0 128v287.33c0 17.44 13.67 32.18 31.1 32.67A32 32 0 0 0 64 416V96H32a32 32 0 0 0-32 32z"
+                                        class="fa-primary"></path>
+                                </g>
+                            </svg>
+                            <span class="fs-12">Artikel</span>
+                        </a>
+                    </div>
+                    <div class="col-3 mt-2 mb-2" id="about">
+                        <a href="contact.html" class="d-flex flex-column align-items-center text-decoration-none">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-circle" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                                class="svg-inline--fa fa-user-circle fa-w-16 fa-2x">
+                                <path fill="currentColor"
+                                    d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"
+                                    class=""></path>
+                            </svg>
+                            <span class="fs-12">Kontak</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        const info = document.getElementById("info");
+        const parsingData = window.location.search.replace(/\?value=/g, "");
+        const splitData = parsingData?.split("|")
+        showMessage(info, `Makanan: ${decodeURIComponent(splitData[0])}`+"<br/>"+`Total: ${decodeURIComponent(splitData[1])}`, "info")
+    </script>
+</body>
+</html>
